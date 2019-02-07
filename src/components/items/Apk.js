@@ -59,7 +59,7 @@ const styles = theme => ({
 
 
 class ApkCard extends React.Component {
-  state = { expanded: false, value: 1};
+  state = { expanded: false, value: 0};
 
   handleExpandClick = () => {
     this.setState(state => ({ expanded: !state.expanded }));

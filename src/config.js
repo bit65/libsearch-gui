@@ -1,1 +1,1 @@
-export const elasticuri = "http://localhost:9201/"
+export const elasticuri = "http://localhost:9200/"

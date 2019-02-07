@@ -25,6 +25,9 @@ class LibraryList extends React.Component {
             onNoResults="No libraries found"
             renderData={(res) => <Library key={res._id} lib={res}/>}
             defaultQuery={() => ({
+                "collapse" : {
+                    "field" : "LIBRARY_FULL_ARTIFACT.keyword" 
+                },
                 query: {
                     "bool": {
                         "must": [
